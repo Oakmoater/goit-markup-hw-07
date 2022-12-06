@@ -42,7 +42,7 @@ body{
     align-items: baseline;
 }
 
-.footer-social-section{
+.footer-socials{
     box-sizing: border-box;
     margin-left: 70px;
 }
@@ -264,6 +264,9 @@ body{
 }
 
 /* контакти футера */
+.footer_intro {
+    display: grid;
+}
 .address_footer {
     display: inline-block;
     width: 231px;
@@ -283,7 +286,7 @@ body{
     line-height: 1.71;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer_title{
+.socials_title{
     display: block;
     font-size: 14px;
     line-height: 1.16;
@@ -292,7 +295,7 @@ body{
     margin-bottom: 20px;
     text-transform: uppercase;
 }
-.footer_list{
+.socials_tabs{
     display: flex;
     justify-content: center;
 }
