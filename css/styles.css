@@ -295,18 +295,18 @@ body{
     margin-bottom: 20px;
     text-transform: uppercase;
 }
-.socials_tabs{
+.footer-social_tabs{
     display: flex;
     justify-content: center;
 }
-.footer-social-title:not(:last-child) {
+.footer-social_item:not(:last-child) {
     margin-right: 10px;
 }
-.footer-social-title{
+.footer-social_item{
     width: 44px;
     height: 44px;
 }
-.footer-social-link{
+.footer-social_link{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -317,8 +317,8 @@ body{
     background-color: var(--logo-bg-transperent);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-social-link:hover,
-.footer-social-link:focus {
+.footer-social_link:hover,
+.footer-social_link:focus {
     background-color: var(--akcent-color);
 }
 /* logo */
@@ -403,7 +403,7 @@ body{
     color: var(--logos-color);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-list-icon{
+.social_icon{
     fill: currentColor;
 }
 .social-list-link:hover, .social-list-link:focus{
