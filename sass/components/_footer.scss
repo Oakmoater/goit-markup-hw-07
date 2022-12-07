@@ -17,11 +17,9 @@
     color: var(--akcent-color);
 }
 .logo_footer {
+    display: block;
     color: var(--akcent-text-color);
     margin-bottom: 20px;
-}
-.footer_intro{
-    display: grid;
 }
 .address_list:not(:first-child) {
     margin-top: 9px;

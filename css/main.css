@@ -265,6 +265,53 @@ body {
   line-height: 1.71;
 }
 
+.cosanostra_section {
+  text-align: center;
+  padding-bottom: 94px;
+}
+
+.cosanostra_title {
+  font-size: 36px;
+  line-height: 1.16;
+  color: var(--text-color);
+  margin-bottom: 50px;
+}
+
+.cosanostra_list {
+  display: inline-flex;
+}
+
+.cosanostra_item {
+  position: relative;
+}
+
+.cosanostra_item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.cosanostra_image {
+  display: block;
+}
+
+.cosanostra_description {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 370px;
+  height: 70px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  background: rgba(47, 48, 58, 0.8);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--akcent-text-color);
+}
+
 .footer {
   background-color: #2F303A;
   padding: 60px 0;
@@ -287,12 +334,9 @@ body {
 }
 
 .logo_footer {
+  display: block;
   color: var(--akcent-text-color);
   margin-bottom: 20px;
-}
-
-.footer_intro {
-  display: grid;
 }
 
 .address_list:not(:first-child) {
