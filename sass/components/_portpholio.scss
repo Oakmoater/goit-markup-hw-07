@@ -28,14 +28,14 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.projects_section {
+.project {
     margin-top: 50px;
     box-sizing: content-box;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
-.projects_item {
+.project_item {
     flex-basis: calc((100% - 60px) / 3);
 }
 
